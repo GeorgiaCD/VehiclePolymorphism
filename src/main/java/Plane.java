@@ -1,10 +1,11 @@
-public class Plane extends Vehicle {
-        private int numberOfWigs;
+public class Plane extends Vehicle implements IFly{
 
-        public Plane(int numberOfWheels, int numberOfSeats, int engineSize, int year,int inputNumberOfWigs ) {
-            super(numberOfWheels, numberOfSeats, engineSize, year);
-            this.numberOfWigs = inputNumberOfWigs;
-        }
+    private int numberOfWigs;
+
+    public Plane(int numberOfWheels, int numberOfSeats, int engineSize, int year,int inputNumberOfWigs ) {
+        super(numberOfWheels, numberOfSeats, engineSize, year);
+        this.numberOfWigs = inputNumberOfWigs;
+    }
 
 
     @Override
@@ -20,6 +21,11 @@ public class Plane extends Vehicle {
 //  @Overloading
     public String stop(boolean isThisAnEmergency ){
         return "Im emergency landing in the sea!!!";
+    }
+
+    //interface method
+    public String fly(int distance){
+        return "The plane has flew " + distance + "m";
     }
 
 }

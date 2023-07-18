@@ -17,7 +17,7 @@ public abstract class Vehicle {
             return "I stopped";
     }
 
-// abstract method (maybe change the move as I only thought of two methods)
+    // abstract method
     public abstract String move();
 
     public int getNumberOfWheel(){
@@ -31,7 +31,5 @@ public abstract class Vehicle {
 
     public int getYear(){
         return this.year;}
-
-
 
 }

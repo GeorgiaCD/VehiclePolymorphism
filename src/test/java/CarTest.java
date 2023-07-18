@@ -81,7 +81,4 @@ public class CarTest {
     public void canDrive(){
         assertThat(audi.drive(2)).isEqualTo("The car has driven 2m");
     }
-
-
-
 }

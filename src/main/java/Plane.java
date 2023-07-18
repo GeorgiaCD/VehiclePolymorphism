@@ -20,12 +20,13 @@ public class Plane extends Vehicle implements IFly{
 
 //  @Overloading
     public String stop(boolean isThisAnEmergency ){
-        return "Im emergency landing in the sea!!!";
+        if(isThisAnEmergency == true){
+        return "Im emergency landing in the sea!!!";}
+        else {return "Im landing on land!";}
     }
 
     //interface method
     public String fly(int distance){
         return "The plane has flew " + distance + "m";
     }
-
 }

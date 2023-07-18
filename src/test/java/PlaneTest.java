@@ -40,6 +40,10 @@ public class PlaneTest {
         assertThat(airplane.stop(true)).isEqualTo("Im emergency landing in the sea!!!");
     }
 
+    @Test
+    public void canNotEmergencyStop(){
+        assertThat(airplane.stop(false)).isEqualTo("Im landing on land!");
+    }
 
 
     // IFly interface methods test
@@ -48,8 +52,4 @@ public class PlaneTest {
     public void canFly(){
         assertThat(airplane.fly(123456)).isEqualTo("The plane has flew 123456m");
     }
-
-
-
-
 }

@@ -29,8 +29,4 @@ public class MuseumTest {
         museum.addVehicles(plane);
         assertThat(museum.countVehicles()).isEqualTo(2);
     }
-    
-
-
-
 }

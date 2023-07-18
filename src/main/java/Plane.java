@@ -9,12 +9,17 @@ public class Plane extends Vehicle {
 
     @Override
     public String move(){
-        return "...";
+        return "Im taking off";
     }
 
     @Override
     public String stop(){
-        return "...";
+        return "Im landing";
+    }
+
+//  @Overloading
+    public String stop(boolean isThisAnEmergency ){
+        return "Im emergency landing in the sea!!!";
     }
 
 }

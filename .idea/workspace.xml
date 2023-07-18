@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b65c0644-94eb-47d9-abb1-fb0a242bd435" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Museum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Museum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Train.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MuseumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MuseumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PlaneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PlaneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TrainTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/VehicleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VehicleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,11 +72,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.getBluetoothStatus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MuseumTest.vehiclesStartCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vehicle" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CarTest" />
-      <option name="METHOD_NAME" value="getBluetoothStatus" />
+      <option name="MAIN_CLASS_NAME" value="MuseumTest" />
+      <option name="METHOD_NAME" value="vehiclesStartCount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,10 +94,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in Vehicle" />
+        <item itemvalue="JUnit.MuseumTest.vehiclesStartCount" />
         <item itemvalue="JUnit.PlaneTest" />
         <item itemvalue="JUnit.CarTest" />
         <item itemvalue="JUnit.CarTest.canMove" />
-        <item itemvalue="JUnit.CarTest.getBluetoothStatus" />
       </list>
     </recent_temporary>
   </component>

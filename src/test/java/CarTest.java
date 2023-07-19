@@ -6,10 +6,13 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 public class CarTest {
 
     Car audi;
+    Car ford;
 
     @BeforeEach
     public void setUp(){
+
         audi = new Car(4,5, 2, 2014, false, true);
+        ford = new Car(4,5, 2, 2014, true, true);
     }
 
     // getters test
@@ -80,5 +83,11 @@ public class CarTest {
     @Test
     public void canDrive(){
         assertThat(audi.drive(2)).isEqualTo("The car has driven 2m");
+    }
+
+    @Test
+    public void canTurnOnSeats(){
+        ford.turnOnHeatedSeats();
+        assertThat(ford.getHeatedSeatsStatus()).isEqualTo(true);
     }
 }
